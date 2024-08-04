@@ -2,6 +2,11 @@ import '../css/style.css'
 import '../css/resume.css'
 import '../css/animation.css'
 import { useState } from './useState.js'
+import iconPhotoshop from '/svg/photoshop.svg'
+import iconFigma from '/svg/figma.svg'
+import iconJavascript from '/svg/javascript.svg'
+import iconTypescript from '/svg/ts.svg'
+import iconNode from '/svg/nodejs.svg'
 
 document.querySelector('#app').innerHTML = `  
   <div class="resume">
@@ -91,15 +96,16 @@ document.querySelector('#app').innerHTML = `
         <div class="tool-list-wrapper">
           <div class="tool-list-title">design</div>
           <ul class="tool-list">
-            <li class="tool-item"><img class="tool-item-img" src="/icon/icon-photoshop.png" alt="photoshop" /></li>
-            <li class="tool-item"><img class="tool-item-img" src="/icon/logo-figma.png" alt="figma" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${iconPhotoshop} alt="photoshop" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${iconFigma} alt="figma" /></li>
           </ul>
         </div>
         <div class="tool-list-wrapper">
           <div class="tool-list-title">framework & libs</div>
-          <ul>
-            <li class="tool-item"><img class="tool-item-img" src="/photoshop.png" alt="photoshop" /></li>
-            <li class="tool-item"><img class="tool-item-img" src="/figma.png" alt="figma" /></li>
+          <ul class="tool-list">
+            <li class="tool-item"><img class="tool-item-img" src=${iconJavascript} alt="javascript" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${iconTypescript} alt="typescript" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${iconNode} alt="nodejs" /></li>
           </ul>
         </div>
       </div>
