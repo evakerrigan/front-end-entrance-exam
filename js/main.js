@@ -1,11 +1,9 @@
-import "../css/style.css";
-import "../css/resume.css";
-import "../css/animation.css";
-// import { setupCounter } from "./counter.js";
-import { useState } from "./useState.js";
-// import iconPhotoshop from "../icon/icon-photoshop.svg";
+import '../css/style.css'
+import '../css/resume.css'
+import '../css/animation.css'
+import { useState } from './useState.js'
 
-document.querySelector("#app").innerHTML = `  
+document.querySelector('#app').innerHTML = `  
   <div class="resume">
 
     <div class="wrapper">
@@ -14,7 +12,7 @@ document.querySelector("#app").innerHTML = `
 
       <div class="greeting block small-block bg-grey">
         <div class="greeting-text">Hello, 👋🏻 I'm</div>
-        <h1 class="greeting-name">Kseniia Liubasova</h1>
+        <h1 class="greeting-name" contenteditable="true">Kseniia Liubasova</h1>
         <div class="greeting-profession" contenteditable="true">Front-End Developer</div>
       </div>
 
@@ -47,38 +45,38 @@ document.querySelector("#app").innerHTML = `
 
           <li class="experience-item inner-block last-time">
             <div class="experience-title-wrapper">
-              <div class="experience-date">Jun. 2023 - Present</div>
+              <div class="experience-date" contenteditable="true">Jun. 2023 - Present</div>
               <span class="experience-description">most recent</span>
             </div>
             <div class="experience-item-wrapper">
               <div class="left-block">
-                <h3>Marketing Manager</h3>
-                <div>Pankayam</div>
+                <h3 contenteditable="true">Marketing Manager</h3>
+                <div contenteditable="true">Pankayam</div>
               </div>
               <div class="right-block">
                 <ul class="experience-duties">
-                  <li>Strategy development and planning of campaigns that promote
+                  <li contenteditable="true">Strategy development and planning of campaigns that promote
                     the business and generate genuine traffic
                   </li>
-                  <li>SEO Content Creation for Blogs, Website, Social media</li>
+                  <li contenteditable="true">SEO Content Creation for Blogs, Website, Social media</li>
                 </ul>
               </div>
             </div>
           </li>
 
           <li class="experience-item  inner-block">
-            <div class="experience-date">Jun. 2023 - Present</div>
+            <div class="experience-date" contenteditable="true">Jun. 2023 - Present</div>
             <div class="experience-item-wrapper">
               <div class="left-block">
-                <h3>Marketing Manager</h3>
-                <div>Pankayam</div>
+                <h3 contenteditable="true">Marketing Manager</h3>
+                <div contenteditable="true">Pankayam</div>
               </div>
               <div class="right-block">
                 <ul class="experience-duties">
-                  <li>Strategy development and planning of campaigns that promote
+                  <li contenteditable="true">Strategy development and planning of campaigns that promote
                     the business and generate genuine traffic
                   </li>
-                  <li>SEO Content Creation for Blogs, Website, Social media</li>
+                  <li contenteditable="true">SEO Content Creation for Blogs, Website, Social media</li>
                 </ul>
               </div>
             </div>
@@ -115,21 +113,21 @@ document.querySelector("#app").innerHTML = `
         <ul class="education-list">
           <li class="education-item inner-block last-time">
             <div class="education-date-wrapper">
-              <div class="education-date">2022 - 2023</div>
+              <div class="education-date" contenteditable="true">2022 - 2023</div>
               <img src="/icon/icon-like.png" alt="like" class="education-last-time">
             </div>
-            <h3>Front-End Developer</h3>
-            <div class="education-tags">#frontend #webdev #html #css #js #react</div>
+            <h3 contenteditable="true">Front-End Developer</h3>
+            <div class="education-tags" contenteditable="true">#frontend #webdev #html #css #js #react</div>
           </li>
           <li class="education-item  inner-block">
-            <div class="education-date">2022 - 2023</div>
-            <h3>Front-End Developer</h3>
-            <div class="education-tags">#frontend #webdev #html #css #js #react</div>
+            <div class="education-date" contenteditable="true">2022 - 2023</div>
+            <h3 contenteditable="true">Front-End Developer</h3>
+            <div class="education-tags" contenteditable="true">#frontend #webdev #html #css #js #react</div>
           </li>
           <li class="education-item  inner-block">
-            <div class="education-date">2022 - 2023</div>
-            <h3>Front-End Developer</h3>
-            <div class="education-tags">#frontend #webdev #html #css #js #react</div>
+            <div class="education-date" contenteditable="true">2022 - 2023</div>
+            <h3 contenteditable="true">Front-End Developer</h3>
+            <div class="education-tags" contenteditable="true">#frontend #webdev #html #css #js #react</div>
           </li>
         </ul>
       </div>
@@ -139,15 +137,15 @@ document.querySelector("#app").innerHTML = `
         <div class="interests block bg-grey">
           <h2>Interests</h2>
           <ul class="interests-list">
-            <li class="interests-item">Music</li>
-            <li class="interests-item">Cooking</li>
-            <li class="interests-item">Travel</li>
+            <li class="interests-item" contenteditable="true">Music</li>
+            <li class="interests-item" contenteditable="true">Cooking</li>
+            <li class="interests-item" contenteditable="true">Travel</li>
           </ul>
         </div>
 
         <div class="action block middle-block">
-          <div class="action-title">Let´s chat! I´m ready to work on excinting projects</div>
-          <a href="mailto:evakerrigan@gmail.com">evakerrigan@gmail.com</a>
+          <div class="action-title" contenteditable="true">Let´s chat! I´m ready to work on excinting projects</div>
+          <a href="mailto:evakerrigan@gmail.com" contenteditable="true">evakerrigan@gmail.com</a>
         </div>
 
       </div>
@@ -157,6 +155,6 @@ document.querySelector("#app").innerHTML = `
   </div>
 
   <a class="export-button" href="/KseniiaLiubasova.pdf" target="_blank"><em>Export to PDF</em></a>
-`;
+`
 
-setupCounter(document.querySelector("#counter"));
+setupCounter(document.querySelector('#counter'))
