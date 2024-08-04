@@ -1,0 +1,32 @@
+[contenteditable]{
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+}
+
+[contenteditable]:focus{
+  outline: 1px solid grey;
+}
+
+[contenteditable]:active::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  /*border-radius: 50%;*/
+  background: rgba(255, 255, 255, 0.7);
+
+  /*transform: scale(0);*/
+  animation: ripple-animation 1s linear;
+  /*pointer-events: none;*/
+}
+
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0.5;
+  }
+}

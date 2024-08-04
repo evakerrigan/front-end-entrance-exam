@@ -1,0 +1,207 @@
+.bg-grey {
+  background-color: #f0f0f0;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.block {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.inner-block {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.small-block {
+  /* width: 248px; */
+  width: 20.8%;
+}
+
+.middle-block {
+  /* width: 534px; */
+  width: 44.8%;
+}
+
+.big-block {
+  /* width: 822px; */
+  width: 69%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume {
+  position: relative;
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.avatar {
+  height: 248px;
+  border-radius: 20px;
+}
+
+.languages-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.languages-title {
+  margin-right: 20px;
+  width: 30%;
+}
+
+.languages-level {
+  width: 70%;
+}
+
+.languages-level-bar {
+  height: 100%;
+  background-color: #28d979;
+  border-radius: 10px;
+}
+
+.languages-level-bar.en {
+  width: 70%;
+}
+
+.languages-level-bar.ru {
+  width: 100%;
+}
+
+.experience-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-description {
+  color: #ddf163;
+  background-color: #7e7312;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.experience-item {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.experience-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-item.last-time {
+  background-color: #28d979;
+  color: #fff;
+}
+
+.experience-duties {
+  list-style: disc;
+}
+
+.tool-list-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.tool-list-title {
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  background-color: #000;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.tool-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tool-item {
+  width: 25%;
+  margin: 0 20px 10px 20px;
+}
+.tool-item-img {
+  width: 100%;
+}
+
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.education-item {
+  width: 40%;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.education-item.last-time {
+  background-color: #28d979;
+  color: #fff;
+}
+
+.education-date-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-last-time {
+  width: 11px;
+  height: 10px;
+}
+
+.education-tags {
+  color: #149063;
+}
+
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interests-item {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0 20px 10px 20px;
+}
+
+.action {
+  background-color: #000;
+}
+
+.export-button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #037cb0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+}
+
+.export-button:hover {
+  background: #36afe3;
+  color: #fff;
+}
