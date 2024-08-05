@@ -162,5 +162,3 @@ document.querySelector('#app').innerHTML = `
 
   <a class="export-button" href="/KseniiaLiubasova.pdf" target="_blank"><em>Export to PDF</em></a>
 `
-
-setupCounter(document.querySelector('#counter'))
