@@ -1,14 +1,4 @@
-import '../css/style.css'
-import '../css/resume.css'
-import '../css/animation.css'
-import { useState } from './useState.js'
-import iconPhotoshop from '/svg/photoshop.svg'
-import iconFigma from '/svg/figma.svg'
-import iconJavascript from '/svg/javascript.svg'
-import iconTypescript from '/svg/ts.svg'
-import iconNode from '/svg/nodejs.svg'
-
-document.querySelector('#app').innerHTML = `  
+(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))s(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const l of t.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&s(l)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function s(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}})();const n="/svg/photoshop.svg",c="/svg/figma.svg",o="/svg/javascript.svg",r="/svg/ts.svg",d="/svg/nodejs.svg";document.querySelector("#app").innerHTML=`  
   <div class="resume">
 
     <div class="wrapper">
@@ -96,16 +86,16 @@ document.querySelector('#app').innerHTML = `
         <div class="tool-list-wrapper">
           <div class="tool-list-title">design</div>
           <ul class="tool-list">
-            <li class="tool-item"><img class="tool-item-img" src=${iconPhotoshop} alt="photoshop" /></li>
-            <li class="tool-item"><img class="tool-item-img" src=${iconFigma} alt="figma" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${n} alt="photoshop" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${c} alt="figma" /></li>
           </ul>
         </div>
         <div class="tool-list-wrapper">
           <div class="tool-list-title">framework & libs</div>
           <ul class="tool-list">
-            <li class="tool-item"><img class="tool-item-img" src=${iconJavascript} alt="javascript" /></li>
-            <li class="tool-item"><img class="tool-item-img" src=${iconTypescript} alt="typescript" /></li>
-            <li class="tool-item"><img class="tool-item-img" src=${iconNode} alt="nodejs" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${o} alt="javascript" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${r} alt="typescript" /></li>
+            <li class="tool-item"><img class="tool-item-img" src=${d} alt="nodejs" /></li>
           </ul>
         </div>
       </div>
@@ -161,4 +151,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 
   <a class="export-button" href="/KseniiaLiubasova.pdf" target="_blank"><em>Export to PDF</em></a>
-`
+`;
