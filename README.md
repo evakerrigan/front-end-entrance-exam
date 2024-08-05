@@ -3,15 +3,25 @@
 https://reliable-hamster-982bb5.netlify.app/
 
 ## Разворачивание проекта локально
+
+Клонировать репозиторий
 ```
 git@github.com:evakerrigan/front-end-entrance-exam.git
 ```
+Перейти в папку проекта
+```
+cd front-end-entrance-exam
+```
+Установить зависимости
 ```
 npm install
 ```
+Запустить проект
 ```
-npm run build
+npm run start
 ```
+Выполнялось 6 часов, т.к. открыла задание только в воскресенье в 19 часов. 
+
 
 # Вступительный экзамен для Front-end разработчика
 
