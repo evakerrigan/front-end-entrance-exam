@@ -1,3 +1,15 @@
+# Деплой
+
+https://reliable-hamster-982bb5.netlify.app/
+
+## Разворачивание проекта локально
+
+git@github.com:evakerrigan/front-end-entrance-exam.git
+
+npm install
+
+npm run build
+
 
 # Вступительный экзамен для Front-end разработчика
 
